@@ -42,10 +42,10 @@ q0=6.8*1e6
 dpz=0.16
 nimp=1e20 #impurity concentration 1/m^3
 #number of row with shape
-r=np.loadtxt("GaAs_pac.dat", dtype='str').shape[0]
+r=np.loadtxt("GaAs_tdf.dat", dtype='str').shape[0]
 print(f'number of row is {r}')
 #number of columns with shape
-c=np.loadtxt("GaAs_pac.dat", dtype='str').shape[1]
+c=np.loadtxt("GaAs_tdf.dat", dtype='str').shape[1]
 print(f'number of column is {c}')
 g=np.zeros((r,c))
 #chemical potential step equals energy step
